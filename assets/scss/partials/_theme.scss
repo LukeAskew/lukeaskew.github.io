@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Fenix", serif;
+	color: $color--alpha;
+	font-size: 18px;
+	line-height: 1.333;
+}
+
+// http://modularscale.com/scale/?px1=18&px2=&ra1=1.333&ra2=0
+h1 {
+	font-size: 1.333em;
+	@media (min-width: $breakpoint--small) {
+		font-size: 2.369em;
+	}
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0.563em 0;
+}
+
+p {
+	padding-bottom: 1.333em;
+	&.content--secondary {
+		font-size: 0.75em;
+	}
+	@media (min-width: $breakpoint--small) {
+		font-size: 1.333em;
+		&.content--secondary {
+			font-size: 1em;
+		}
+	}
+}
+
+a,
+a:visited,
+a:active, {
+	color: $color--beta;
+	transition: color 250ms;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.container {
+	@extend %clearfix;
+	@media(min-width: $breakpoint--large) {
+		width: 100%;
+		max-width: 63em;
+		margin: 0 auto;
+	}
+}
+
+// section heading
+.section-heading {
+	color: lighten($color--alpha, 50%);
+	text-transform: uppercase;
+	font-size: 0.75em;
+}
+
+// Writing List
+.list--major {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	li {
+		border-bottom: 1px solid lighten($color--alpha, 80%);
+		&:first-child {
+			a {
+				padding-top: 0;
+			}
+		}
+		&:last-child {
+			border-bottom: none;
+		}
+		a {
+			padding: 0.75em 0.317em 0.317em 0;
+			display: block;
+			font-size: 1.333em;
+		}
+	}
+}

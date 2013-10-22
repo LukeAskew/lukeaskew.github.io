@@ -1,0 +1,41 @@
+.zone {
+	float: left;
+	display: inline-block;
+	padding-left: 1.333em;
+	padding-right: 1.333em;
+	width: 100%;
+	@media (min-width: $breakpoint--small) {
+		&.first-child {
+			padding-right: 0;
+		}
+	}
+	@media (min-width: $breakpoint--large) {
+		&.first-child {
+			padding-left: 0;
+		}
+	}
+}
+
+.zone--alpha {
+	@media (min-width: $breakpoint--small) {
+		// width: 50%;
+	}
+	@media (min-width: $breakpoint--small) {
+		width: 66%;
+	}
+	@media (min-width: $breakpoint--x-medium) {
+		width: 75%;
+	}
+}
+
+.zone--beta {
+	@media (min-width: $breakpoint--small) {
+		// width: 50%;
+	}
+	@media (min-width: $breakpoint--small) {
+		width: 33%;
+	}
+	@media (min-width: $breakpoint--x-medium) {
+		width: 25%;
+	}
+}

@@ -1,0 +1,27 @@
+// TODO
+blockquote {
+	@extend %clearfix;
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0 18px 0 40px;
+	border-left: 1px solid #ccc;
+	&:before {
+		content: "“";
+		position: absolute;
+		height: 0;
+		font-size: 48px;
+		line-height: 24px;
+		top: 6px;
+		left: 15px;
+	}
+	&:after {
+		content: "”";
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 0;
+		font-size: 48px;
+		line-height: 0;
+	}
+}

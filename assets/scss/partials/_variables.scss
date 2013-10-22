@@ -1,0 +1,10 @@
+$color--alpha: rgb(20,20,20);  // almost black
+$color--beta: rgb(237,45,58); // red
+$color--beta-complement: darken(complement($color--beta), 20%); // dark aqua
+$color--gamma: rgb(249,255,227); //light green
+
+
+$breakpoint--small: 36em;
+$breakpoint--medium: 43em;
+$breakpoint--x-medium: 68em;
+$breakpoint--large: 73em;
