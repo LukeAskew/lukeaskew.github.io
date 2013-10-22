@@ -9,6 +9,10 @@
 	@media (min-width: $breakpoint--x-medium) {
 		height: 17.713em;
 	}
+	@media 	only screen and (min-device-pixel-ratio: 2),
+			only screen and (min-resolution: 192dpi) {
+		background-size: 50% 50%;
+	}
 }
 
 .hero-title--home {

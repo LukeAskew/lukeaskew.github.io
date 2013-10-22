@@ -422,6 +422,12 @@ a:active:hover {
   }
 }
 
+@media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+  .hero {
+    background-size: 50% 50%;
+  }
+}
+
 .hero-title--home h1 {
   display: inline-block;
   position: relative;
