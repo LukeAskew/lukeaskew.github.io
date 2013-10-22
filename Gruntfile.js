@@ -174,4 +174,8 @@ module.exports = function(grunt) {
 		"watch"
 	]);
 
+	grunt.registerTask("default", [
+		"compile"
+	]);
+
 };
