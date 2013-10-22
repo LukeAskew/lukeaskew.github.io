@@ -431,7 +431,6 @@ a:active:hover {
 .hero-title--home h1 {
   display: inline-block;
   position: relative;
-  font-size: 2.369em;
 }
 
 .hero-title--home [class*="icon-"] {
@@ -465,7 +464,7 @@ a:active:hover {
   padding: 0.178em 0.317em;
   background-color: rgba(20,20,20,0.8);
   color: #fff;
-  font-size: 1.777em;
+  font-size: 2.369em;
   position: relative;
 }
 

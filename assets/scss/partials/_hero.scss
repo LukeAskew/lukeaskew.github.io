@@ -21,7 +21,6 @@
 	h1 {
 		display: inline-block;
 		position: relative;
-		font-size: 2.369em;
 	}
 	[class*="icon-"] {
 		position: relative;
@@ -50,7 +49,7 @@
 		padding: 0.178em 0.317em;
 		background-color: rgba($color--alpha,0.8);
 		color: #fff;
-		font-size: 1.777em;
+		font-size: 2.369em;
 		position: relative;
 		@media (min-width: $breakpoint--small) {
 			font-size: 3.157em;
