@@ -49,6 +49,11 @@ a:active, {
 	}
 }
 
+.image-link,
+.image-link:hover {
+	text-decoration: none;
+}
+
 .container {
 	@extend %clearfix;
 	@media(min-width: $breakpoint--large) {

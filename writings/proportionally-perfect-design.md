@@ -86,7 +86,7 @@ Design that uses a relative unit like em responds and adapts to a number of user
 The beauty of accessibility is that good design considerations benefit all users - they make the experience more accessible for _everyone_. Consider the use case above - a user with the browser's font size increased. But instead of a low-vision user, its a user sitting far away from their monitor, maybe a TV. They increase the font size, and if the code uses ems, the experience scales up and down beautifully, giving the user the absolute best experience.
 
 <figure>
-	<a href="http://video.pbs.org/" target="_blank">
+	<a href="http://video.pbs.org/" target="_blank" class="image-link">
 		<img src="http://i.imgur.com/I3e87e1.jpg" alt="PBS 100%">
 		<img src="http://i.imgur.com/R7p7cpo.jpg" alt="PBS 125%">
 		<img src="http://i.imgur.com/Uw8L9Xb.jpg" alt="PBS 175%">
