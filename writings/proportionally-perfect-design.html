@@ -25,15 +25,15 @@
 
 	<article class="article container padding-top">
 
-<p>It seems like this whole movement toward responsive design has given developers even more reason to push back against &quot;pixel-perfect&quot; design - the idea that what the developer produces actually matches the creative design he was given. It&#39;s an understandable frustration an behalf of the developer. The browser is the most unpredictable and volatile environments to write code. So what you usually end up getting is a website <em>mostly</em> matches the &quot;approved&quot; creative, but with misaligned elements and disjointed spacing &quot;because that&#39;s just how the web is&quot;.</p>
+<p>It seems like this whole movement toward responsive design has given developers even more reason to push back against &quot;pixel-perfect&quot; design - the idea that what the developer produces actually matches the creative design he was given. It&#39;s an understandable frustration on behalf of the developer. The browser is the most unpredictable and volatile environments to write code. So what you usually end up getting is a website <em>mostly</em> matches the &quot;approved&quot; creative, but with misaligned elements and disjointed spacing &quot;because that&#39;s just how the web is&quot;.</p>
 <p>That is total hot garbage.</p>
 <p>Disregard for this kind of detail in the execution of a design cheapens the final product and its like giving a big middle finger to the designer who painstakingly nudged pixels until his creative vision was realized.</p>
 <h2>How Design Happens</h2>
-<p>When a designer is establishing an aesthetic for a new project, one of the initial steps is to select a typeface. The designer chooses a font that looks promising, drops it into his design, then tweaks pixels and type size until he finds something that looks good. If he wants to try a different typeface, he goes through the same processes; replacing the font he just worked to refine with a new one, adjusting the spacing and size until the font works well with whatever design he&#39;s got so far.</p>
-<p>The designer isn&#39;t aware of how many pixels tall a font is or how many pixels pad the left and right sides of the words. He&#39;s paying attention to the proportion of the design. He&#39;s playing with the design - like a potter with clay or a sculptor with stone - until he finds that visual balance that just &quot;looks right&quot;. This is &quot;proportionally-perfect&quot; design, and its what we&#39;re really after.</p>
+<p>When a designer is establishing an aesthetic for a new project, one of the initial steps is to select a typeface. The designer chooses a font that looks promising, drops it into his design, then tweaks pixels and type size until she finds something that looks good. If she wants to try a different typeface, she goes through the same processes; replacing the font she just worked to refine with a new one, adjusting the spacing and size until the font works well with whatever design she&#39;s got so far.</p>
+<p>The designer isn&#39;t aware of how many pixels tall a font is or how many pixels pad the left and right sides of the words. She&#39;s paying attention to the proportion of the design. She&#39;s playing with the design - like a potter with clay or a sculptor with stone - until she finds that visual balance that just &quot;looks right&quot;. This is &quot;proportionally-perfect&quot; design, and its what we&#39;re really after.</p>
 <p>We can achieve this in code, but we have to start writing code in the same way a designer works with type - by using ems.</p>
 <h2>Ems</h2>
-<p>An &quot;em&quot; (pronounced like the letter &quot;m&quot;) is a unit of measure, but unlike &quot;pixels&quot; or &quot;points, ems are a relative unit defined by a font&#39;s <em>height</em>.</p>
+<p>An <a href="http://www.fontbureau.com/blog/the-em/" target="_blank">&quot;em&quot;</a> (pronounced like the letter &quot;m&quot;) is a unit of measure, but unlike &quot;pixels&quot; or &quot;points, ems are a relative unit defined by a font&#39;s <em>height</em>.</p>
 <p>Typefaces are designed with a constant height. This practice was established with traditional typesetting when letters needed to fit in the same-sized row.</p>
 <figure>
     <a href="http://www.flickr.com/photos/7500409@N06/8445901342/" target="_blank"><img src="http://farm9.staticflickr.com/8185/8445901342_64a483efa8.jpg" alt="Type Setting"></a>
@@ -58,7 +58,7 @@
 <li>Container or grid maximum width.</li>
 <li>Margin and padding.</li>
 </ul>
-<p>This approach may be new to many developers, and may be like lifting the veil for some designers. We have talked about design in terms of finite units of measure because that&#39;s what our tooling (Photoshop, InDesign) speaks back to us, but the hidden language of web design is <em>proportion</em>, specifically proportion centered on type. Once designers and developers begin speaking in this common language, the translation from Photoshop to code becomes more seamless. Design and code are married.</p>
+<p>This approach may be new to many developers, and may be like lifting the veil for some designers. We have talked about design in terms of finite units of measure because that&#39;s what our tooling (Photoshop, InDesign) speaks back to us, but <strong>the hidden language of web design is <em>proportion</em></strong>, specifically proportion centered on type. Once designers and developers begin speaking in this common language, the translation from Photoshop to code becomes more seamless. Design and code are married.</p>
 <h2>Three things</h2>
 <p>A website design work flow focused on ems is three things:</p>
 <p>Harmonious.<br>Accessible.<br>Revealing.  </p>
@@ -76,9 +76,11 @@
 <p>Design that uses a relative unit like em responds and adapts to a number of user contexts. If breakpoints are set in ems, then low-vision users who have their browser font size increased will experience the most optimal, most proportional experience. This is not true of designs defined in pixels.</p>
 <p>The beauty of accessibility is that good design considerations benefit all users - they make the experience more accessible for <em>everyone</em>. Consider the use case above - a user with the browser&#39;s font size increased. But instead of a low-vision user, its a user sitting far away from their monitor, maybe a TV. They increase the font size, and if the code uses ems, the experience scales up and down beautifully, giving the user the absolute best experience.</p>
 <figure>
-    <img src="http://i.imgur.com/I3e87e1.jpg" alt="PBS 100%">
-    <img src="http://i.imgur.com/R7p7cpo.jpg" alt="PBS 125%">
-    <img src="http://i.imgur.com/Uw8L9Xb.jpg" alt="PBS 175%">
+    <a href="http://video.pbs.org/" target="_blank">
+        <img src="http://i.imgur.com/I3e87e1.jpg" alt="PBS 100%">
+        <img src="http://i.imgur.com/R7p7cpo.jpg" alt="PBS 125%">
+        <img src="http://i.imgur.com/Uw8L9Xb.jpg" alt="PBS 175%">
+    </a>
     <figcaption>
         video.pbs.org at the same resolution, but different font size.
     </figcaption>

@@ -1,6 +1,6 @@
 # Proportionally-perfect Design
 
-It seems like this whole movement toward responsive design has given developers even more reason to push back against "pixel-perfect" design - the idea that what the developer produces actually matches the creative design he was given. It's an understandable frustration an behalf of the developer. The browser is the most unpredictable and volatile environments to write code. So what you usually end up getting is a website _mostly_ matches the "approved" creative, but with misaligned elements and disjointed spacing "because that's just how the web is".
+It seems like this whole movement toward responsive design has given developers even more reason to push back against "pixel-perfect" design - the idea that what the developer produces actually matches the creative design he was given. It's an understandable frustration on behalf of the developer. The browser is the most unpredictable and volatile environments to write code. So what you usually end up getting is a website _mostly_ matches the "approved" creative, but with misaligned elements and disjointed spacing "because that's just how the web is".
 
 That is total hot garbage.
 
@@ -8,15 +8,15 @@ Disregard for this kind of detail in the execution of a design cheapens the fina
 
 
 ## How Design Happens
-When a designer is establishing an aesthetic for a new project, one of the initial steps is to select a typeface. The designer chooses a font that looks promising, drops it into his design, then tweaks pixels and type size until he finds something that looks good. If he wants to try a different typeface, he goes through the same processes; replacing the font he just worked to refine with a new one, adjusting the spacing and size until the font works well with whatever design he's got so far.
+When a designer is establishing an aesthetic for a new project, one of the initial steps is to select a typeface. The designer chooses a font that looks promising, drops it into his design, then tweaks pixels and type size until she finds something that looks good. If she wants to try a different typeface, she goes through the same processes; replacing the font she just worked to refine with a new one, adjusting the spacing and size until the font works well with whatever design she's got so far.
 
-The designer isn't aware of how many pixels tall a font is or how many pixels pad the left and right sides of the words. He's paying attention to the proportion of the design. He's playing with the design - like a potter with clay or a sculptor with stone - until he finds that visual balance that just "looks right". This is "proportionally-perfect" design, and its what we're really after.
+The designer isn't aware of how many pixels tall a font is or how many pixels pad the left and right sides of the words. She's paying attention to the proportion of the design. She's playing with the design - like a potter with clay or a sculptor with stone - until she finds that visual balance that just "looks right". This is "proportionally-perfect" design, and its what we're really after.
 
 We can achieve this in code, but we have to start writing code in the same way a designer works with type - by using ems.
 
 ## Ems
 
-An "em" (pronounced like the letter "m") is a unit of measure, but unlike "pixels" or "points, ems are a relative unit defined by a font's _height_.
+An <a href="http://www.fontbureau.com/blog/the-em/" target="_blank">"em"</a> (pronounced like the letter "m") is a unit of measure, but unlike "pixels" or "points, ems are a relative unit defined by a font's _height_.
 
 Typefaces are designed with a constant height. This practice was established with traditional typesetting when letters needed to fit in the same-sized row.
 
@@ -48,7 +48,7 @@ Simple.
 - Container or grid maximum width.
 - Margin and padding.
 
-This approach may be new to many developers, and may be like lifting the veil for some designers. We have talked about design in terms of finite units of measure because that's what our tooling (Photoshop, InDesign) speaks back to us, but the hidden language of web design is _proportion_, specifically proportion centered on type. Once designers and developers begin speaking in this common language, the translation from Photoshop to code becomes more seamless. Design and code are married.
+This approach may be new to many developers, and may be like lifting the veil for some designers. We have talked about design in terms of finite units of measure because that's what our tooling (Photoshop, InDesign) speaks back to us, but **the hidden language of web design is _proportion_**, specifically proportion centered on type. Once designers and developers begin speaking in this common language, the translation from Photoshop to code becomes more seamless. Design and code are married.
 
 
 ## Three things 
@@ -86,9 +86,11 @@ Design that uses a relative unit like em responds and adapts to a number of user
 The beauty of accessibility is that good design considerations benefit all users - they make the experience more accessible for _everyone_. Consider the use case above - a user with the browser's font size increased. But instead of a low-vision user, its a user sitting far away from their monitor, maybe a TV. They increase the font size, and if the code uses ems, the experience scales up and down beautifully, giving the user the absolute best experience.
 
 <figure>
-	<img src="http://i.imgur.com/I3e87e1.jpg" alt="PBS 100%">
-	<img src="http://i.imgur.com/R7p7cpo.jpg" alt="PBS 125%">
-	<img src="http://i.imgur.com/Uw8L9Xb.jpg" alt="PBS 175%">
+	<a href="http://video.pbs.org/" target="_blank">
+		<img src="http://i.imgur.com/I3e87e1.jpg" alt="PBS 100%">
+		<img src="http://i.imgur.com/R7p7cpo.jpg" alt="PBS 125%">
+		<img src="http://i.imgur.com/Uw8L9Xb.jpg" alt="PBS 175%">
+	</a>
 	<figcaption>
 		video.pbs.org at the same resolution, but different font size.
 	</figcaption>
