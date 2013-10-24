@@ -1,3 +1,29 @@
 .article {
 	padding: 0 1.333em;
+	h2 {
+		font-size: 1.777em;
+	}
 }
+
+figure {
+	border-top: 1px solid lighten($color--alpha, 60%);
+	border-bottom: 1px solid lighten($color--alpha, 60%);
+	text-align: center;
+	padding: 1.333em;
+	margin-bottom: 2.369em;
+	figcaption {
+		font-size: 0.875em;
+		font-style: italic;
+		padding-top: 0.75em;
+		color: lighten($color--alpha, 60%);
+	}
+	img {
+		max-width: 100%;
+	}
+}
+
+#disqus_thread {
+	border-top: 1px solid lighten($color--alpha, 60%);
+	margin-top: 1em;
+}
+
