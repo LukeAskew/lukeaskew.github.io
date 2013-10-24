@@ -2,8 +2,10 @@
 
 // live reload settings
 var LIVERELOAD_PORT = 35729;
-var lrSnippet = require("connect-livereload")({port: LIVERELOAD_PORT});
-var mountFolder = function (connect, dir) {
+var lrSnippet = require("connect-livereload")({
+	port: LIVERELOAD_PORT
+});
+var mountFolder = function(connect, dir) {
 	return connect.static(require("path").resolve(dir));
 };
 
@@ -30,7 +32,7 @@ module.exports = function(grunt) {
 			},
 			livereload: {
 				options: {
-					middleware: function (connect) {
+					middleware: function(connect) {
 						return [
 							lrSnippet,
 							mountFolder(connect, "")
@@ -90,6 +92,17 @@ module.exports = function(grunt) {
 					src: "{,*/}*.css",
 					dest: "assets/css"
 				}]
+			}
+		},
+		cssmin: {
+			options: {
+				report: "gzip"
+			},
+			dist: {
+				expand: true,
+				cwd: "assets/css",
+				src: ["*.css"],
+				dest: "assets/css"
 			}
 		},
 		concurrent: {
@@ -175,7 +188,8 @@ module.exports = function(grunt) {
 	]);
 
 	grunt.registerTask("default", [
-		"compile"
+		"compile",
+		"cssmin"
 	]);
 
 };
