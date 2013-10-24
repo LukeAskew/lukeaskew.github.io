@@ -10,7 +10,7 @@ Disregard for this kind of detail in the execution of a design cheapens the fina
 ## How Design Happens
 When a designer is establishing an aesthetic for a new project, one of the initial steps is to select a typeface. The designer chooses a font that looks promising, drops it into his design, then tweaks pixels and type size until she finds something that looks good. If she wants to try a different typeface, she goes through the same processes; replacing the font she just worked to refine with a new one, adjusting the spacing and size until the font works well with whatever design she's got so far.
 
-The designer isn't aware of how many pixels tall a font is or how many pixels pad the left and right sides of the words. She's paying attention to the proportion of the design. She's playing with the design - like a potter with clay or a sculptor with stone - until she finds that visual balance that just "looks right". This is "proportionally-perfect" design, and its what we're really after.
+The designer isn't keeping track of each time the exact pixel value of a font size or padding around an object changes - the medium (Photoshop) isn't built that way. Rather, she's paying attention to the proportion of the design. She's playing with the design - like a potter with clay or a sculptor with stone - until she finds that visual balance that just "looks right". This is "proportionally-perfect" design, and its what we're really after.
 
 We can achieve this in code, but we have to start writing code in the same way a designer works with type - by using ems.
 
@@ -102,4 +102,5 @@ Responsive <a href="http://www.1stwebdesigner.com/design/overview-of-breakpoints
 
 <a href="https://support.google.com/chrome/answer/96810?hl=en" target="_blank">Increasing the browser font size</a> on a design set in ems is like looking at that design under a microscope. The traditional way of testing responsive layouts is to drag the window back and forth to see how the design changes at different widths. If an experience is defined in ems, adjusting the width of the browser is a moot practice. Adjusting the base measure up and down will expose design flaws in a very obvious way. This is a much better way to stretch and examine and refine the experience.
 
+<small class="footnote">Thank you to Ryan Landers and Tim Vonderloh for their peer review.</small>
 
