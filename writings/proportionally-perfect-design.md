@@ -4,11 +4,11 @@ It seems like this whole movement toward responsive design has given developers 
 
 That is total hot garbage.
 
-Disregard for this kind of detail in the execution of a design cheapens the final product and its like giving a big middle finger to the designer who painstakingly nudged pixels until his creative vision was realized.
+Disregard for this kind of detail in the execution of a design cheapens the final product and its like giving a big middle finger to the designer who painstakingly nudged pixels until her creative vision was realized.
 
 
 ## How Design Happens
-When a designer is establishing an aesthetic for a new project, one of the initial steps is to select a typeface. The designer chooses a font that looks promising, drops it into his design, then tweaks pixels and type size until she finds something that looks good. If she wants to try a different typeface, she goes through the same processes; replacing the font she just worked to refine with a new one, adjusting the spacing and size until the font works well with whatever design she's got so far.
+When a designer is establishing an aesthetic for a new project, one of the initial steps is to select a typeface. The designer chooses a font that looks promising, drops it into her design, then tweaks pixels and type size until she finds something that looks good. If she wants to try a different typeface, she goes through the same processes; replacing the font she just worked to refine with a new one, adjusting the spacing and size until the font works well with whatever design she's got so far.
 
 The designer isn't keeping track of each time the exact pixel value of a font size or padding around an object changes - the medium (Photoshop) isn't built that way. Rather, she's paying attention to the proportion of the design. She's playing with the design - like a potter with clay or a sculptor with stone - until she finds that visual balance that just "looks right". This is "proportionally-perfect" design, and its what we're really after.
 
