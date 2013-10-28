@@ -22,7 +22,7 @@ All the magic happens with [Grunt](https://npmjs.org/package/grunt). I wrote a t
 - Markdown makes collaborating a breeze
 
 
-### Start writing
+## Start writing
 
 Creating a writing is easy.
 
