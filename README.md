@@ -20,3 +20,14 @@ All the magic happens with [Grunt](https://npmjs.org/package/grunt). I wrote a t
 - Few dependencies
 - One language (JavaScript) end-to-end
 - Markdown makes collaborating a breeze
+
+
+### Start writing
+
+Creating a writing is easy.
+
+1. Create a new markdown document in  `writings/`.
+1. Once finished, `cd` into the directory and run `grunt`.
+1. Push to Github.
+
+If you want to preview the post before pushing, run `grunt server` to start the site.
