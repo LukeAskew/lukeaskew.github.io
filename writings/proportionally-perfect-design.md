@@ -1,6 +1,6 @@
 # Proportionally-perfect Design
 
-It seems like this whole movement toward responsive design has given developers even more reason to push back against "pixel-perfect" design - the idea that what the developer produces actually matches the creative design he was given. It's an understandable frustration on behalf of the developer. The browser is the most unpredictable and volatile environments to write code. So what you usually end up getting is a website _mostly_ matches the "approved" creative, but with misaligned elements and disjointed spacing "because that's just how the web is".
+It seems like this whole movement toward responsive design has given developers even more reason to push back against "pixel-perfect" design - the idea that what the developer produces actually match the creative he was given. It's an understandable frustration on behalf of the developer - the browser is one of the most unpredictable and volatile environments in which to write code. So what you usually end up getting is a website that _mostly_ matches the "approved" creative, but with misaligned elements and disjointed spacing "because that's just how the web is".
 
 That is total hot garbage.
 
