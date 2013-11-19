@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 			},
 		},
 		open: {
-			server: {
+			serve: {
 				path: "http://localhost:<%= connect.options.port %>"
 			}
 		},
@@ -137,7 +137,7 @@ module.exports = function(grunt) {
 		// get the title of the writing (first h1 tag)
 		var getWritingTitle = function(writing) {
 			var heading = writing.match(/<h1>(.+)<\/h1>/)[0],
-				headingText = heading.match(/[^<\/h1>]+/);
+				headingText = heading.replace(/<h1>|<\/h1>/gi, "");
 			return headingText;
 		};
 
@@ -179,8 +179,8 @@ module.exports = function(grunt) {
 		"autoprefixer"
 	]);
 
-	// startup a livereload server for development
-	grunt.registerTask("server", [
+	// startup a livereload serve for development
+	grunt.registerTask("serve", [
 		"compile",
 		"connect:livereload",
 		"open",
